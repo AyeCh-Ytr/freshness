@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1ykqDLSpKpswcyRSxVjpRZaFv5V7bXTgZ
 """
 
-!pip install streamlit
-!pip install torch torchvision numpy opencv-python opencv-python-headless cvzone ultralytics
-
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -151,5 +148,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-!streamlit run /usr/local/lib/python3.10/dist-packages/colab_kernel_launcher.py
 
