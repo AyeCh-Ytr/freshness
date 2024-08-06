@@ -7,14 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1ykqDLSpKpswcyRSxVjpRZaFv5V7bXTgZ
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-from google.colab import files
-uploaded = files.upload()
-
-from google.colab import files
-uploaded = files.upload()
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
@@ -30,9 +22,9 @@ uploaded = files.upload()
 # from net1 import Net as ClassificationNet  # Adjust based on actual import path
 # from ultralytics import YOLO
 
-FRESHNESS_MODEL_FILE = "/content/drive/MyDrive/Data/model.pt"
-FV_MODEL_FILE = "/content/drive/MyDrive/Data/final.pth"
-YOLO_MODEL_FILE = "/content/drive/MyDrive/Data/best.pt"
+FRESHNESS_MODEL_FILE = "model.pt"
+FV_MODEL_FILE = "final.pth"
+YOLO_MODEL_FILE = "best.pt"
 
 FRESHNESS_MODEL = None
 FV_MODEL = None
